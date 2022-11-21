@@ -90,18 +90,17 @@ body {
   height: 596px;
   position: relative;
 }
-.main__image .first {
+.main__image .pic {
   max-width: 380px;
   max-height: 547px;
   position: absolute;
-  bottom: 40px;
-  right: 51px;
+}
+.main__image .first {
+  top: 0;
+  left: 0;
   z-index: 2;
 }
 .main__image .second {
-  max-width: 380px;
-  max-height: 547px;
-  position: absolute;
   right: 0;
   bottom: 0;
   z-index: 1;
